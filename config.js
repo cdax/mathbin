@@ -6,10 +6,10 @@ var config = module.exports = {
     },
     //MongoDB config
     mongo: {
-        host: '127.0.0.1',
-        port: 27017,
-        user: 'mathbin-dev',
-        pwd: 'EEdmc19g8',
-        db: 'mathbin-dev'
+        host: 'ds047930.mongolab.com',
+        port: 47930,
+        user: 'mathbin-prod',
+        pwd: 'NRMqWXm3mTBw6ypWo0eM',
+        db: 'heroku_app32877906'
     }
 };
