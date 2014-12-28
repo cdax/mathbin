@@ -1,0 +1,63 @@
+<div class="view-editor col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="panel panel-default">
+        <div class="panel-header">
+            TeX
+        </div>
+        <div class="panel-body">
+            <textarea class="code-area">
+            </textarea>
+        </div>
+        <div class="panel-footer">
+            <div class="btn-group">
+                <button class="btn btn-default button-run"><i class="fa fa-flash"></i>&nbsp;RUN</a>
+                <button class="btn btn-default button-save"><i class="fa fa-bookmark"></i>&nbsp;SAVE</a>
+                <% if(saved) { %>
+                    <button class="btn btn-default button-fork"><i class="fa fa-code-fork"></i>&nbsp;FORK</a>
+                <% } %>
+                <button class="btn btn-default button-clear"><i class="fa fa-times"></i>&nbsp;CLEAR</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="view-result col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="panel panel-default">
+        <div class="panel-header">
+            <input class="title" type="text" val="<%= title %>" placeholder="RESULT">
+        </div>
+        <div class="panel-body">
+            <div class="math text-center">
+                <script class="mathjax" type="math/tex; mode=display">
+                    <%= code %>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade saving">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Saving...</p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade saved">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Saved!</p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--Toast modals for server sync messages-->
+<div class="modal fade error">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Couldn't save snippet. Try again after a few seconds.</p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

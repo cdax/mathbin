@@ -1,0 +1,197 @@
+body { 
+    background: #fafafa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navbar-nav > li > a,
+.navbar-header > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a.navbar-brand {
+    height: 20px;
+}
+
+.navbar {
+    min-height: 20px;
+}
+
+.container-fluid {
+    /*padding-left: 0px;
+    padding-right: 0px;*/
+}
+
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.52);
+}
+
+.btn.btn-default {
+    border-radius: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #03a9f4;
+    border-color: #03a9f4;
+    box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.52);
+}
+
+.btn.btn-default:active {
+    border-color: #039be5;
+    background-color: #039be5;
+    box-shadow: none;
+}
+
+.btn.btn-default:focus {
+    outline: none;
+}
+
+.view-new,
+.view-about,
+.view-snippet {
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+.view-editor .panel.panel-default,
+.view-editor .panel.panel-default .panel-footer
+{
+    background-color: #e0e0e0;
+    border-color: #bdbdbd;
+}
+
+.view-editor .panel.panel-default .panel-header {
+    color: #616161;
+}
+
+.view-editor .panel.panel-default .panel-body,
+.view-editor .panel.panel-default .panel-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.view-editor .panel.panel-default .panel-footer {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.view-editor .panel.panel-default .panel-footer .checkbox {
+    margin: 0px;
+}
+
+.view-editor .panel.panel-default .panel-footer .checkbox > label > input[type=checkbox] {
+    visibility: hidden;
+}
+
+.view-editor .panel.panel-default .panel-header button {
+    border-radius: 0px;
+    margin-right: 5px;
+    font-weight: normal;
+    color: #616161;
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+.view-result .panel.panel-default .panel-body {
+    overflow-x: auto;
+}
+
+.view-result .panel.panel-default .panel-header > input {
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: none;
+}
+
+.view-about {
+    margin: 0px;
+    padding: 0px;
+}
+
+.CodeMirror {
+    box-shadow: inset 0px 2px 2px -2px rgba(0, 0, 0, 0.52);
+    font-family: 'Inconsolata', monospace;
+    height: auto;
+}
+
+.panel.panel-default {
+    padding: 5px;
+    border-radius: 0px;
+    box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.52);
+}
+
+.panel-header {
+    font-size: 13px;
+    color: #bdbdbd;
+    font-weight: bold;
+}
+
+.panel-footer {
+    border-top: none;
+    background-color: #ffffff; 
+}
+
+/* About styles */
+.view-about p {
+    font-size: 13px;
+}
+
+.snap {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-image: url(../images/snap.jpg);
+    background-size: 100%;
+}
+
+.navbar-toggle.collapsed,
+.navbar-toggle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    border: none;
+}
+
+.navbar-toggle.collapsed i.fa-bars {
+    color: white;
+}
+
+.modal-backdrop {
+    background: none;
+    background-color: none;
+}
+
+.modal-content {
+    background-color: #fff59d;
+    border-radius: 0px;
+}
+
+.modal-body {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.modal-body p {
+    margin: 0px;
+}
